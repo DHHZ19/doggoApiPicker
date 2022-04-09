@@ -1,0 +1,49 @@
+html{
+    border: 2px solid red;
+    font-size: 1.75rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(pink, red);
+    height: 115vh;
+}
+img{
+    max-width: 850px;
+    max-height: 700px;
+}
+header{
+    margin-bottom: 5%;
+    text-align: center;
+}
+header h1{
+    margin: none;
+    padding: none;
+}
+select{
+    font-size: 1.1rem;
+    margin-bottom: 1%;
+}
+.item ul{
+    list-style-type: none;
+}
+.section-container{
+    border: 2px solid blue;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+   
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#dog-name{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+@media all and (max-width: 650px) {
+    img{
+        width: 70%;
+    }
+}
